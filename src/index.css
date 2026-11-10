@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: #1e293b;
+  }
+  body {
+    background-color: #020617;
+    color: #f1f5f9;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Terminal Glass & Glow Utilities */
+.terminal-glow {
+  box-shadow: 0 0 25px -5px rgba(34, 211, 238, 0.15);
+}
+
+.terminal-border-glow {
+  box-shadow: 0 0 15px -2px rgba(34, 211, 238, 0.25);
+}
+
+.alarm-glow {
+  box-shadow: 0 0 35px 8px rgba(239, 68, 68, 0.45);
+}
